@@ -3,7 +3,8 @@
     nav, .banner{
         flex-direction: column;
     }
-    .banner, .about{ 
+    .banner, .about,
+        #what-i-do-desciption{
         padding: 0;
     }
 
