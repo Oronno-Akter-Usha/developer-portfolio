@@ -1,0 +1,31 @@
+/* mobile devices */
+@media screen  and (max-width: 576px) {
+    nav, .banner{
+        flex-direction: column;
+    }
+    .banner, .about{ 
+        padding: 0;
+    }
+
+    .banner-content {
+        width: 100%;
+        text-align: left;
+    }
+
+    .skill-container {
+        grid-template-columns: 1fr;
+      
+    }
+}
+
+
+/* tablet or medium devices */ 
+@media screen and (min-width: 576px) and (max-width: 960px){
+    nav, .banner{
+        flex-direction: column;
+    }
+    .skill-container {
+        grid-template-columns: 1fr 1fr;
+      
+    }
+}
